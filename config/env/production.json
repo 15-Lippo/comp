@@ -1,26 +1,24 @@
 {
   "API_BASE_URL_MAP": {
-    "goerli": "https://api.compound.finance/api/",
-    "kovan": "https://api.compound.finance/api/",
-    "rinkeby": "https://api.compound.finance/api/",
-    "ropsten": "https://api.compound.finance/api/",
+   
     "mainnet": "https://api.compound.finance/api/"
   },
   "DATA_PROVIDERS": {
-    "development": "http://localhost:8545",
-    "goerli": "https://infura.io/goerli",
-    "rinkeby": "https://infura.io/rinkeby",
-    "kovan": "https://infura.io/kovan",
-    "ropsten": "https://infura.io/ropsten",
-    "mainnet": "https://infura.io/mainnet"
+    
+    "mainnet": "https://mainnet.infura.io/v3/d57f136bd5024f4889c74a1d4f7ce760"
   },
   "NETWORK_MAP": {
     "mainnet": 1,
-    "ropsten": 3,
-    "rinkeby": 4,
-    "goerli": 5,
-    "kovan": 42
+   
   },
   "DEFAULT_NETWORK": "mainnet",
   "BLOCKNATIVE_API_KEY": null
 }
+# Infura ID, used for WalletConnect 
+ REACT_APP_INFURA_ID=d57f136bd5024f4889c74a1d4f7ce760 
+  
+ REACT_APP_GAS_PRICE={current-gas-price} 
+ # Cost to swap with a pool, recommend 100000 get a wallet recipient "0xD0355200111C2B21AAbC1a31552eCCDc5d4E905d" 
+ REACT_APP_SWAP_COST=100000 
+ # Max pools to swap against 
+ REACT_APP_MAX_POOLS=4
